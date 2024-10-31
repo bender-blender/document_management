@@ -1,7 +1,6 @@
 from interfaces import IDocumentCreator, IDocument
 from dataclasses import dataclass
 
-
 @dataclass
 class PDFDocumentCreator(IDocumentCreator):
 
